@@ -1,1 +1,1 @@
-# HealthGameJapan-2016
+# TamagotchiHealth
