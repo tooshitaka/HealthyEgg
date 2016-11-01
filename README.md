@@ -1,1 +1,1 @@
-# TamagotchiHealth
+# HealthyEgg
