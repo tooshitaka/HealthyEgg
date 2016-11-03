@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding="UTF-8" standalone = "yes"?>
+
+<resources>
+
+<string name = "continue">Continue</string>
+<string name = "return">Return</string>
+<string name = "submit">Submit</string>
+
+<string name = "login">Log in</string>
+<string name = "username">Username</string>
+<string name = "password">Password</string>
+<string name = "forgot_password">Forgot password</string>
+<string name = "register">Register using email</string>
+
+
+<string name = "first_name">First name</string>
+<string name = "surname">Surname</string>
+<string name = "weight">Weight</string>
+<string name = "height">Height</string>
+
+
+</resources>
+
