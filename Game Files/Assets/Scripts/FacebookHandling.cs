@@ -15,15 +15,17 @@ public class FacebookHandling : MonoBehaviour {
     }
     private void InitCallBack()
     {
-        if (FB.IsInitialized)
+        if (Application.isMobilePlatform)
         {
-            FB.ActivateApp();
+            if (FB.IsInitialized)
+            {
+                FB.ActivateApp();
+            }
+            else
+            {
+                Debug.Log("Failed to authenticate!");
+            }
         }
-        else
-        {
-            Debug.Log("Failed to authenticate!");
-        }
-
     }
     private void OnHideUnity(bool isGameShown)
     {

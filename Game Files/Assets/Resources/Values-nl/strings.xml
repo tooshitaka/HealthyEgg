@@ -11,6 +11,7 @@
 <string name = "password">Wachtwoord</string>
 <string name = "forgot_password">Wachtwoord vergeten</string>
 <string name = "register">Registreren met email-adres</string>
+ <string name ="time"> Het is op dit moment 2 uur</string>
 
 
 <string name = "first_name">Voornaam</string>

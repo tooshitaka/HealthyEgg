@@ -14,8 +14,6 @@ public class StringManager{
 
     private static Dictionary<string, string> strings;
 
-
-
     private static Dictionary<Language, string> languages = new Dictionary<Language, string>() {
         {Language.English, "en" },
         {Language.Nederlands, "nl" },
@@ -24,6 +22,11 @@ public class StringManager{
 
     private static Language currentLanguage;
     
+    public static Dictionary<string, string> Strings
+    {
+        get { return new Dictionary<string, string>(strings); }
+        private set { }
+    }
 
     public static Dictionary<Language, string> Languages
     {
@@ -67,7 +70,7 @@ public class StringManager{
     }
 
     public static string getString(string name) {
-        if (!strings.ContainsKey(name)) {
+        if (strings == null || !strings.ContainsKey(name)) {
             return "STRING NOT FOUND";
         }
 		return strings[name];
