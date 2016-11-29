@@ -31,7 +31,6 @@ public class InputFieldManager : MonoBehaviour {
 		fieldSets.Add (FieldSet.RegistrationFieldSetB, registrationB_fc);
 		fieldSets.Add (FieldSet.ForgotPasswordFieldSet, forgotPassword_fc);
 
-	
 		currentFieldSet = FieldSet.MainFieldSet;
 		fieldSets [FieldSet.MainFieldSet].SetActive (true);
 

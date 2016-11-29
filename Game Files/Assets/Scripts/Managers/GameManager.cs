@@ -5,11 +5,10 @@ using System.Collections.Generic;
 public class GameManager : MonoBehaviour {
 
     void Awake() {
-        StringManager.SetLanguage(Language.Nederlands);
+        StringManager.SetLanguage(Language.English);
         if (Application.isEditor)
         {
             Debug.LogWarning("You are using this application in the Unity Editor. Behavior may not be the same as when used on iOS, Android, or Web.");
         }
-       
     }
 }
