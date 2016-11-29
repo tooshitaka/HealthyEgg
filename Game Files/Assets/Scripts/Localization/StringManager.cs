@@ -25,7 +25,8 @@ public class StringManager{
     public static Dictionary<string, string> Strings
     {
         get { return new Dictionary<string, string>(strings); }
-        private set { }
+        private set {
+        }
     }
 
     public static Dictionary<Language, string> Languages
@@ -35,9 +36,7 @@ public class StringManager{
             return new Dictionary<Language, string>(languages);
         }
 
-        set
-        {
-            languages = value;
+        private set{
         }
     }
 
@@ -50,12 +49,11 @@ public class StringManager{
 
         private set
         {
-            currentLanguage = value;
         }
     }
 
     public static void SetLanguage(Language language) {
-        CurrentLanguage = language;
+        currentLanguage = language;
         XmlDocument xmlDocument = new XmlDocument();
         TextAsset xmlContents = (TextAsset) Resources.Load("Values" + "-" + languages[language] + "/strings", typeof(TextAsset));
         xmlDocument.LoadXml(xmlContents.text);
@@ -70,7 +68,7 @@ public class StringManager{
     }
 
     public static string getString(string name) {
-        if (strings == null || !strings.ContainsKey(name)) {
+        if (strings == null || !strings.ContainsKey("username")) {
             return "STRING NOT FOUND";
         }
 		return strings[name];

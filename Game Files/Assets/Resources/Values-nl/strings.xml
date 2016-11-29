@@ -18,6 +18,9 @@
 <string name = "surname">Achternaam</string>
 <string name = "weight">Gewicht</string>
 <string name = "height">Hoogte</string>
+  <string name = "day">Dag</string>
+  <string name = "month">Maand</string>
+  <string name = "year">Jaar</string>
 
 </resources>
 

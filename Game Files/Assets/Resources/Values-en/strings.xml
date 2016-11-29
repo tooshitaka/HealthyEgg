@@ -2,22 +2,25 @@
 
 <resources>
 
-<string name = "continue">Continue</string>
-<string name = "return">Return</string>
-<string name = "submit">Submit</string>
+  <string name = "continue">Continue</string>
+  <string name = "return">Return</string>
+  <string name = "submit">Submit</string>
 
-<string name = "login">Log in</string>
-<string name = "username">Username</string>
-<string name = "password">Password</string>
-<string name = "forgot_password">Forgot password</string>
-<string name = "register">Register using email</string>
- <string name ="time">It's 2pm</string>
+  <string name = "login">Log in</string>
+  <string name = "username">Username</string>
+  <string name = "password">Password</string>
+  <string name = "forgot_password">Forgot password</string>
+  <string name = "register">Register using email</string>
+  <string name ="time">It's 2pm</string>
 
 
-<string name = "first_name">First name</string>
-<string name = "surname">Surname</string>
-<string name = "weight">Weight</string>
-<string name = "height">Height</string>
+  <string name = "first_name">First name</string>
+  <string name = "surname">Surname</string>
+  <string name = "weight">Weight</string>
+  <string name = "height">Height</string>
+  <string name = "day">Day</string>
+  <string name = "month">Month</string>
+  <string name = "year">Year</string>
 
 
 </resources>

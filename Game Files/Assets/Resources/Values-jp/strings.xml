@@ -2,21 +2,25 @@
 
 <resources>
 
-<string name = "continue">続ける</string>
-<string name = "return">戻る</string>
-<string name = "submit">送信する</string>
+  <string name = "continue">続ける</string>
+  <string name = "return">戻る</string>
+  <string name = "submit">送信する</string>
 
-<string name = "login">ログイン</string>
-<string name = "username">ユーザー名</string>
-<string name = "password">パスワード</string>
-<string name = "forgot_password">パスワードを忘れた方</string>
-<string name = "register">会員登録</string>
-<string name = "time">今は二時です</string>
+  <string name = "login">ログイン</string>
+  <string name = "username">ユーザー名</string>
+  <string name = "password">パスワード</string>
+  <string name = "forgot_password">パスワードを忘れた方</string>
+  <string name = "register">会員登録</string>
+  <string name = "time">今は二時です</string>
 
-<string name = "first_name">名前</string>
-<string name = "surname">名字</string>
-<string name = "weight">体重</string>
-<string name = "height">身長</string>
-  
+  <string name = "first_name">名前</string>
+  <string name = "surname">名字</string>
+  <string name = "weight">体重</string>
+  <string name = "height">身長</string>
+  <string name = "day">日</string>
+  <string name = "month">月</string>
+  <string name = "year">年</string>
+
+
 </resources>
 
