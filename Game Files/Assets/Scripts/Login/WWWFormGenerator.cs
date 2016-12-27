@@ -32,7 +32,6 @@ public static class WWWFormGenerator
         if(www.text == "username already exists")
         {
             inputField.warningImage.gameObject.SetActive(true);
-            Debug.Log("Hi!");
         }
         else
         {
