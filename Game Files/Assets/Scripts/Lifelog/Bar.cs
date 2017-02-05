@@ -1,8 +1,11 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
+using System.Collections.Generic;
 
 public class Bar : MonoBehaviour {
-
+    
+    public Image bar;
 	// Use this for initialization
 	void Start () {
 	
